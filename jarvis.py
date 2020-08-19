@@ -59,7 +59,7 @@ def philis():
         server = smtplib.SMTP('smtp.gmail.com', 587)
         server.ehlo()
         server.starttls()
-        server.login('atharvaavhad2010@gmail.com', 'Jayshreekrishna')
+        server.login('atharvaavhad2010@gmail.com', '**********')
         server.sendmail('atharvaavhad2010@gmail.com', to, content)
         server.close()
 
